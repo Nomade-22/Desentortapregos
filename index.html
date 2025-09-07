@@ -1,0 +1,164 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Máquina de Desentortar Pregos • Duplo Rolo Engrenado</title>
+  <meta name="description" content="Landing page de vendas premium: máquina manual de desentortar pregos com dois rolos ranhurados e engrenagens sincronizadas. Fotos embutidas (data URI), ficha técnica e CTA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f7f7fb;--card:#ffffff;--ink:#0e1220;--sub:#59607a;--line:#e6e8ef;--muted:#f1f2f7;--accent:#0f7fff;--accent2:#7b61ff;--gold:#bfa06a;--max:1180px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:Manrope,system-ui,Segoe UI,Roboto,Ubuntu,Arial,sans-serif}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:var(--max);margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(255,255,255,.85);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:30}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px}
+    .brand{display:flex;gap:10px;align-items:center;font-weight:800}
+    .badge{padding:4px 10px;border:1px solid #dadcec;border-radius:999px;color:#7c86a8;font-size:12px}
+    .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:14px;border:1px solid var(--line);background:linear-gradient(180deg,#ffffff,#fafbff);color:var(--ink);cursor:pointer;transition:transform .12s ease,box-shadow .12s ease}
+    .btn:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(10,30,80,.10)}
+    .btn.primary{background:linear-gradient(180deg,#0f7fff,#0d6be6);border-color:#0d6be6;color:#fff}
+    .btn.ghost{background:transparent}
+    .hero{display:grid;grid-template-columns:1.1fr .9fr;gap:28px;padding:38px 0 10px}
+    h1{font-size:clamp(32px,3.5vw,52px);line-height:1.06;margin:0 0 14px;letter-spacing:-.02em}
+    p.lead{color:var(--sub)}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:16px}
+    .kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+    .kpi b{font-size:22px}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px}
+    .hero-media{position:relative;background:var(--muted);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    .hero-media img{width:100%;height:100%;object-fit:cover;display:block}
+    .ribbon{position:absolute;left:14px;top:14px;background:linear-gradient(90deg,#fff4,#fff0), linear-gradient(90deg,#f6e8cc,#eadab2);color:#5f4b27;font-weight:800;padding:6px 10px;border-radius:10px;border:1px solid #e5d6b6}
+    .trust{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;color:#7c86a8;font-size:13px}.grid{display:grid;gap:24px}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+
+.section{padding:40px 0}
+h2{font-size:clamp(22px,2.4vw,34px);margin:0 0 12px}
+.list{display:grid;gap:10px}
+.li{display:flex;gap:10px;align-items:flex-start;padding:12px;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+.li .dot{width:9px;height:9px;border-radius:50%;margin-top:6px;background:linear-gradient(180deg,var(--gold),#e6d5a8)}
+
+.gal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{position:relative;border:1px solid var(--line);background:var(--card);border-radius:16px;overflow:hidden}
+.card img{display:block;width:100%;height:260px;object-fit:cover}
+.card .cap{position:absolute;inset:auto 0 0 0;background:linear-gradient(180deg,transparent,#ffffffcc);padding:12px;color:#2a2f44;font-size:14px}
+
+.price{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.p{border:1px solid var(--line);background:var(--card);border-radius:18px;padding:18px}
+.p h3{margin:0 0 6px}
+.p .val{font-size:34px;font-weight:800}
+.p small{color:#7c86a8}
+
+.faq{display:grid;gap:10px}
+details{border:1px solid var(--line);background:var(--card);border-radius:14px;padding:12px}
+summary{cursor:pointer;font-weight:700}
+
+.footer{padding:34px 0;color:#7c86a8;border-top:1px dashed var(--line)}
+
+@media(max-width:980px){.hero{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}.split{grid-template-columns:1fr}.price{grid-template-columns:1fr 1fr}.gal{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.kpis{grid-template-columns:1fr}.price{grid-template-columns:1fr}.gal{grid-template-columns:1fr}}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="brand"><span class="badge">Premium</span><span>Máquina de Desentortar Pregos</span></div>
+      <nav class="cta">
+        <a class="btn" href="#como-funciona">Como funciona</a>
+        <a class="btn" href="#beneficios">Benefícios</a>
+        <a class="btn" href="#ficha">Ficha técnica</a>
+        <a class="btn primary" href="#comprar">Comprar</a>
+      </nav>
+    </div>
+  </header>  <main class="wrap">
+    <!-- HERO -->
+    <section class="hero">
+      <div>
+        <h1>Duplo Rolo Engrenado c/ Ranhuras — <span style="color:var(--gold)">meia‑volta puxa, meia‑volta solta</span></h1>
+        <p class="lead">Estética clean e engenharia robusta. Rolos em aço 1045 com knurl V‑60°, engrenagens 1:1 e ajuste micrométrico. Alinha pregos tortos em segundos — com guia de cabeça para operação sem travar.</p>
+        <div class="trust">
+          <span>✓ Garantia 12 meses</span>
+          <span>✓ Produção nacional</span>
+          <span>✓ Peças de reposição</span>
+        </div>
+        <div class="cta" style="margin-top:14px" id="comprar">
+          <a class="btn primary" href="#planos">Comprar agora</a>
+          <a class="btn ghost" href="#galeria">Ver imagens</a>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><b>600–900</b><div class="lead">pregos/h</div></div>
+          <div class="kpi"><b>0–6 mm</b><div class="lead">ajuste de vão</div></div>
+          <div class="kpi"><b>Knurl V‑60°</b><div class="lead">agarre controlado</div></div>
+          <div class="kpi"><b>1:1</b><div class="lead">engrenagens sincronizadas</div></div>
+        </div>
+      </div>
+      <div class="hero-media">
+        <span class="ribbon">Foto do produto</span>
+        <img alt="Foto fotorealista" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AADv52NhQlgAAO/nanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQ..."/>
+      </div>
+    </section><!-- COMO FUNCIONA -->
+<section class="section" id="como-funciona">
+  <h2>Como funciona</h2>
+  <div class="split">
+    <div class="panel">
+      <div class="list">
+        <div class="li"><span class="dot"></span><div><b>Rolos ranhurados</b><br/><span class="lead">Tracionam o corpo do prego. A cabeça corre por um canal lateral.</span></div></div>
+        <div class="li"><span class="dot"></span><div><b>Engrenagens 1:1</b><br/><span class="lead">Giros sincronizados em sentidos opostos.</span></div></div>
+        <div class="li"><span class="dot"></span><div><b>Ajuste micrométrico</b><br/><span class="lead">Parafusos M12 e molas prato mantêm pressão uniforme.</span></div></div>
+        <div class="li"><span class="dot"></span><div><b>Meia‑volta puxa / meia‑volta solta</b><br/><span class="lead">Came de alívio (ou roda‑livre) evita retrocesso no retorno.</span></div></div>
+      </div>
+    </div>
+    <div class="panel">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AADv52NhQlgAAO/nanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQ..." alt="Explicação meia‑volta" style="border-radius:14px;width:100%"/>
+    </div>
+  </div>
+</section>
+
+<!-- GALERIA -->
+<section class="section" id="galeria">
+  <h2>Imagens de venda</h2>
+  <div class="gal">
+    <figure class="card"><img alt="Render fotorealista" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AADv52NhQlgAAO/nanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQ..."/><figcaption class="cap">Foto/render do produto</figcaption></figure>
+    <figure class="card"><img alt="Explicação" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AADv52NhQlgAAO/nanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQ..."/><figcaption class="cap">Meia‑volta puxa / solta</figcaption></figure>
+    <figure class="card"><img alt="Especificações" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABAAAAAYACAIAAABn4K39AADv52NhQlgAAO/nanVtYgAAAB5qdW1kYzJwYQARABCAAACqADibcQ..."/><figcaption class="cap">Detalhes e benefícios</figcaption></figure>
+  </div>
+</section>
+
+<!-- PLANOS / PREÇO -->
+<section class="section" id="planos">
+  <h2>Escolha seu modelo</h2>
+  <div class="price">
+    <div class="p"><h3>Starter</h3><div class="val">R$ 1.890</div><small>Rolos Ø40 • 120 mm úteis</small><a class="btn primary" href="#contato">Comprar</a></div>
+    <div class="p" style="border-color:#e3d6b7"><h3>Pro (mais vendido)</h3><div class="val" style="color:var(--gold)">R$ 2.690</div><small>Rolos Ø50 • 150 mm úteis</small><a class="btn primary" href="#contato">Comprar</a></div>
+    <div class="p"><h3>Industrial</h3><div class="val">Sob consulta</div><small>Motorizado • NR‑12</small><a class="btn" href="#contato">Solicitar proposta</a></div>
+  </div>
+</section>
+
+<!-- FICHA TÉCNICA -->
+<section class="section" id="ficha">
+  <h2>Ficha técnica</h2>
+  <div class="panel"><ul class="lead" style="list-style:disc;padding-left:20px;color:#3f4660"><li><b>Rolos:</b> aço 1045, Ø 40–50 mm, 120–150 mm úteis, ranhuras V‑60° (passo 2,0–2,5 mm, prof. 0,8–1,0 mm)</li><li><b>Transmissão:</b> engrenagens módulo 1,5 (1:1); estágio 2:1 opcional</li><li><b>Ajuste:</b> rolo superior em mangas deslizantes, parafusos M12 com molas prato; curso 0–6 mm</li><li><b>Guias:</b> canal lateral para cabeça do prego</li><li><b>Segurança:</b> carenagem, base com furação, manual de operação</li></ul></div>
+</section>
+
+<!-- FAQ -->
+<section class="section"><h2>Perguntas frequentes</h2><div class="faq"><details><summary>A cabeça do prego não trava?</summary><div class="lead">Não. A cabeça corre por um canal lateral regulável.</div></details><details><summary>Marca o prego?</summary><div class="lead">As ranhuras são suavizadas e a pressão é regulável.</div></details><details><summary>Posso motorizar?</summary><div class="lead">Sim. Há versão Industrial com motoredutor e proteções NR‑12.</div></details></div></section>
+
+<!-- CONTATO / CTA FINAL -->
+<section class="section panel" id="contato">
+  <h2>Fale com vendas</h2>
+  <p class="lead">Personalizamos medidas e torque. Enviamos para todo o Brasil.</p>
+  <div class="cta"><a class="btn primary" href="https://wa.me/5551999999999">WhatsApp</a><a class="btn" href="mailto:vendas@suaempresa.com">E‑mail</a></div>
+</section>
+
+<footer class="wrap footer">© <span id="y"></span> — Máquina de Desentortar Pregos • Duplo Rolo.</footer>
+
+  </main>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
